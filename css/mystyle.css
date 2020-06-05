@@ -1,8 +1,19 @@
+@font-face{
+    font-family: "mozis";
+    src: url("fonts/astron_boy/astronbo.ttf");
+    font-weight: 100;
+}
+@font-face{
+    font-family: "mozis-bigger";
+    src: url("fonts/amerika/AMERIKA_.ttf");
+    font-weight: 900;
+}
 h1 {
     font-size: 32px; color: blueviolet;
+    font-family: "mozis-bigger";
 }
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "mozis";
     color: chartreuse;
 }
 p{
